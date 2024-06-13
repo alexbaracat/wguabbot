@@ -1,0 +1,100 @@
+<aiml version="2.0">
+  <!-- Default response -->
+  <category>
+    <pattern>*</pattern>
+    <template>
+      I'm here to help you find the right computing job. You can ask me about different job types or specific roles in the field of computer science.
+    </template>
+  </category>
+
+  <!-- Greeting -->
+  <category>
+    <pattern>HELLO</pattern>
+    <template>
+      Hello! How can I assist you today with your career planning?
+    </template>
+  </category>
+
+  <!-- Job Types -->
+  <category>
+    <pattern>WHAT JOBS CAN I APPLY FOR</pattern>
+    <template>
+      Based on your skills and preferences, here are five job types you can consider: Software Developer, Data Analyst, Cybersecurity Analyst, Systems Analyst, and DevOps Engineer. Please ask about any of these roles for more information.
+    </template>
+  </category>
+
+  <!-- Software Developer -->
+  <category>
+    <pattern>TELL ME ABOUT SOFTWARE DEVELOPER</pattern>
+    <template>
+      Software Developers create and maintain software applications. They write code, debug programs, and collaborate with other developers. Key skills include proficiency in programming languages such as Java, Python, and C++. They often work in teams and use version control systems like Git.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT SKILLS DO I NEED TO BE A SOFTWARE DEVELOPER</pattern>
+    <template>
+      To be a Software Developer, you should be proficient in programming languages such as Java, Python, and C++. Familiarity with software development tools like Git, Visual Studio, and Jira is also beneficial. Strong problem-solving skills and the ability to work in a team are crucial.
+    </template>
+  </category>
+
+  <!-- Data Analyst -->
+  <category>
+    <pattern>TELL ME ABOUT DATA ANALYST</pattern>
+    <template>
+      Data Analysts collect, process, and perform statistical analyses on large datasets. They use tools like SQL, Excel, and data visualization software to interpret data and make recommendations. Key skills include proficiency in SQL, Python, and data visualization tools like Tableau or Power BI.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT SKILLS DO I NEED TO BE A DATA ANALYST</pattern>
+    <template>
+      To be a Data Analyst, you need strong analytical skills and proficiency in tools like SQL, Python, Excel, and data visualization software such as Tableau or Power BI. Understanding statistics and data modeling techniques is also important.
+    </template>
+  </category>
+
+  <!-- Cybersecurity Analyst -->
+  <category>
+    <pattern>TELL ME ABOUT CYBERSECURITY ANALYST</pattern>
+    <template>
+      Cybersecurity Analysts protect an organization’s systems and data from cyber threats. They monitor networks for security breaches, install security measures, and respond to attacks. Key skills include knowledge of network security, understanding of security protocols, and familiarity with tools like firewalls and intrusion detection systems.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT SKILLS DO I NEED TO BE A CYBERSECURITY ANALYST</pattern>
+    <template>
+      To be a Cybersecurity Analyst, you need knowledge of network security, understanding of security protocols, and familiarity with tools like firewalls, intrusion detection systems, and antivirus software. Certifications like CompTIA Security+ or CISSP can also be beneficial.
+    </template>
+  </category>
+
+  <!-- Systems Analyst -->
+  <category>
+    <pattern>TELL ME ABOUT SYSTEMS ANALYST</pattern>
+    <template>
+      Systems Analysts study an organization's current computer systems and procedures and design solutions to help the organization operate more efficiently. They work with IT and business teams to understand requirements and design systems that meet those needs. Key skills include understanding of business processes, knowledge of system design, and proficiency in requirements analysis.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT SKILLS DO I NEED TO BE A SYSTEMS ANALYST</pattern>
+    <template>
+      To be a Systems Analyst, you need an understanding of business processes, knowledge of system design, and proficiency in requirements analysis. Strong communication skills are essential, as you'll need to work with both technical and non-technical stakeholders.
+    </template>
+  </category>
+
+  <!-- DevOps Engineer -->
+  <category>
+    <pattern>TELL ME ABOUT DEVOPS ENGINEER</pattern>
+    <template>
+      DevOps Engineers work to bridge the gap between development and operations teams to improve the software development lifecycle. They automate processes, manage infrastructure, and ensure continuous integration and deployment. Key skills include knowledge of automation tools, understanding of cloud platforms like AWS or Azure, and proficiency in scripting languages such as Python or Bash.
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHAT SKILLS DO I NEED TO BE A DEVOPS ENGINEER</pattern>
+    <template>
+      To be a DevOps Engineer, you need knowledge of automation tools like Jenkins, understanding of cloud platforms such as AWS or Azure, and proficiency in scripting languages like Python or Bash. Familiarity with containerization tools like Docker and orchestration tools like Kubernetes is also important.
+    </template>
+  </category>
+</aiml>
